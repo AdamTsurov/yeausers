@@ -1,0 +1,65 @@
+.nav-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.nav-link {
+    text-decoration: none; /* Убираем подчеркивание */
+    color: inherit; /* Наследуем цвет текста */
+    display: block; /* Занимает всю область */
+    flex: 1;
+    min-width: 250px;
+    max-width: 500px;
+}
+
+.nav-block-users,
+.nav-block-favorite-users {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%; /* Занимает всю ширину ссылки */
+    height: 100%; /* Занимает всю высоту ссылки */
+    box-sizing: border-box; /* Чтобы padding не влиял на размеры */
+}
+
+.nav-block-users {
+}
+
+.nav-block-users:hover {
+    background-color: rgb(248, 248, 248);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.nav-block-users:active {
+    background-color: rgb(233, 233, 233);
+    box-shadow: 0 2px 8px rgba(255, 221, 176, 0.2);
+}
+
+.nav-block-favorite-users {
+}
+
+.nav-block-favorite-users:hover {
+    background-color: rgb(255, 238, 200);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.nav-block-favorite-users:active {
+    background-color: rgb(255, 233, 186);
+    box-shadow: 0 2px 8px rgba(255, 221, 176, 0.2);
+}
+
+.nav-users-info {
+}
+
+.nav-users-info-title {
+}
+
+.nav-users-info-count {
+}
+
+.nav-icon {
+    width: 8%;
+    min-width: 40px;
+}

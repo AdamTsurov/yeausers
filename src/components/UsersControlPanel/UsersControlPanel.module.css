@@ -1,0 +1,55 @@
+.controls {
+    display: flex;
+    max-width: 450px;
+    gap: 5px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.search {
+    min-width: 150px;
+}
+
+.search-icon {
+    width: 15px;
+    height: 15px;
+}
+
+.clear-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.clear-button {
+    height: 20px;
+    min-width: auto;
+    background-color: transparent;
+    outline: none;
+    border: 0;
+    padding: 0;
+}
+
+.clear-button:hover {
+    background-color: #f0f0f0;
+}
+
+.add-button {
+    width: 35px;
+    font-size: 13px;
+    padding: 5px 0px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: transparent;
+    transition: 0.12s ease-in-out;
+    outline: none;
+    white-space: nowrap;
+}
+
+.add-button:hover {
+    background-color: rgb(245, 245, 245);
+}
+
+.add-button:active {
+    transform: scale(0.92);
+}

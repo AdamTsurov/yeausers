@@ -1,0 +1,70 @@
+.inputContainer {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 0 5px;
+    background: white;
+    transition: border-color 0.2s ease;
+    box-sizing: border-box;
+    max-width: 350px;
+}
+
+.inputContainer:focus-within {
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.input {
+    border: none;
+    outline: none;
+    padding: 3px 0;
+    font-size: 14px;
+    background: transparent;
+    min-width: 0; 
+}
+
+.input::placeholder {
+    color: #999;
+}
+
+.startAdornment {
+    display: flex;
+    align-items: center;
+}
+
+.endAdornment {
+    display: flex;
+    align-items: center;
+}
+
+.inputContainer.small {
+    padding: 0 8px;
+}
+
+.inputContainer.small .input {
+    padding: 8px 0;
+    font-size: 12px;
+}
+
+.inputContainer.large {
+    padding: 0 16px;
+}
+
+.inputContainer.large .input {
+    padding: 16px 0;
+    font-size: 16px;
+}
+
+.inputContainer.disabled {
+    background-color: #f5f5f5;
+    cursor: not-allowed;
+}
+
+.inputContainer.error {
+    border-color: #dc3545;
+}
+
+.inputContainer.error:focus-within {
+    box-shadow: 0 0 0 2px rgba(220, 53, 69, 0.25);
+}

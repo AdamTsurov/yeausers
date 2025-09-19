@@ -1,0 +1,76 @@
+.user-card-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-card-info:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.user-container-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-block-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.user-basic-info {
+    padding-left: 4%;
+    font-size: 13px;
+}
+
+.user-basic-info > :first-child {
+    font-weight: bold;
+}
+
+.user-menu-button {
+    width: 25px;
+    padding: 1px 0;
+    border-radius: 5px;
+    border: 0;
+    background-color: transparent;
+    transition: 0.12s ease-in-out;
+    outline: none;
+}
+
+.user-menu-button:hover {
+    background-color: rgb(245, 245, 245);
+}
+
+.user-menu-button:active {
+    transform: scale(0.92);
+}
+
+.user-menu-button > img {
+    max-width: 15px;
+}
+
+.user-menu-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-menu-item {
+    display: flex;
+    max-width: 200px;
+}
+
+.user-popup-items {
+}
+
+.user-contact-info {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.user-icon {
+    width: 8%;
+    min-width: 30px;
+    padding: 3px;
+    border-radius: 50%;
+    background-color: rgb(218, 218, 218);
+}

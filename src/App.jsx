@@ -9,7 +9,7 @@ function App() {
     return (
         <div className="app">
             <UsersProvider>
-                <BrowserRouter>
+                <BrowserRouter basename="/yeausers">
                     <NavUserInfo />
                     <AppRouter />
                 </BrowserRouter>

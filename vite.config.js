@@ -4,7 +4,7 @@ import path from 'path'
 
 export default defineConfig({
     plugins: [react()],
-    base: '/yeausers',
+    base: '/yeausers/',
     resolve: {
         alias: {
             '@assets': path.resolve(__dirname, 'src/assets'),

@@ -1,0 +1,39 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+    margin-top: 20px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.submit-button-block {
+    flex: 1;
+    align-self: normal;
+    padding-top: 10px;
+}
+
+.button {
+    width: 100%;
+    font-size: 13px;
+    padding: 5px 0px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: transparent;
+    transition: 0.12s ease-in-out;
+    outline: none;
+    white-space: nowrap;
+}
+
+.button:hover {
+    background-color: rgb(245, 245, 245);
+}
+
+.button:active {
+    transform: scale(0.92);
+}

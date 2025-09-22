@@ -9,7 +9,7 @@
 
 .popup {
     position: absolute;
-    z-index: 1000;
+    z-index: 999;
     background: white;
     border: 1px solid #ccc;
     border-radius: 8px;

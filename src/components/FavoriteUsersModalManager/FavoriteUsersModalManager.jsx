@@ -40,7 +40,7 @@ const FavoriteUsersModalManager = ({
                         }
                     >
                         <FormUsers
-                            initialValues={editingUser}
+                            initialValues={editingUser ?? {}}
                             onSubmit={(values) => {
                                 if (editingUser) {
                                     editFavorite(editingUser.id, values)
@@ -49,6 +49,9 @@ const FavoriteUsersModalManager = ({
                                 }
                                 close()
                             }}
+                            submitButtonTitle={
+                                editingUser ? 'Edit User' : 'Create User'
+                            }
                         />
                     </UserModalContent>
                 </ModalUsers>

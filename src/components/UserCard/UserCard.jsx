@@ -9,6 +9,8 @@ import UserCardContactInfo from '@components/UserCardContactInfo/UserCardContact
 const UserCard = ({ user, age, popupItems }) => {
     const { icon, label, type } = getGenderInfo(user.gender)
 
+    console.log(type)
+
     const userInfoClassnames = {
         containerInfo: styles['user-container-info'],
         block: styles['user-block-info'],

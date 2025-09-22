@@ -7,7 +7,7 @@ const UserCardInfo = ({
     age,
     iconUser,
     iconMenuButton,
-    type,
+    type: gender,
     className = {},
     style = {},
     altForUserIcon,
@@ -25,7 +25,7 @@ const UserCardInfo = ({
                     <p>
                         {name} {age ? `(age: ${age})` : '(age: no info)'}
                     </p>
-                    <p>gender: {type}</p>
+                    <p>gender: {gender}</p>
                 </div>
             </div>
 

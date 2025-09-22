@@ -29,6 +29,7 @@ export const UsersProvider = ({ children }) => {
                 addToFavorites,
                 removeFromFavorites,
                 isFavorite,
+                createFavorite,
                 editFavorite,
             }}
         >

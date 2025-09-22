@@ -19,7 +19,7 @@ const NavUserInfo = () => {
 
     return (
         <div className={styles['nav-info']}>
-            <Link to="/" className={styles['nav-link']}>
+            <Link to="/users" className={styles['nav-link']}>
                 <ContainerInfo className={styles['nav-block-users']}>
                     <NavCardUsersInfo
                         title={'Total Users'}
